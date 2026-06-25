@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ Chatbot | AI Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ── SIDEBAR ─────────────────────────────────────────── -->
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <div class="bot-avatar large">🤖</div>
+    <h2>FAQ Bot</h2>
+    <p class="subtitle">AI-Powered Assistant</p>
+    <span class="status-badge">● Online</span>
+  </div>
+
+  <div class="faq-browser">
+    <h3>Browse FAQs</h3>
+    <div class="faq-list" id="faqList">
+      <div class="faq-loading">Loading FAQs…</div>
+    </div>
+  </div>
+
+  <div class="sidebar-footer">
+    <small>Powered by NLTK + TF-IDF + Cosine Similarity</small>
+  </div>
+</aside>
+
+<!-- ── CHAT PANEL ──────────────────────────────────────── -->
+<main class="chat-panel">
+  <header class="chat-header">
+    <div class="header-left">
+      <div class="bot-avatar small">🤖</div>
+      <div>
+        <h1>AI FAQ Assistant</h1>
+        <span class="typing-status" id="typingStatus">Ready to help you</span>
+      </div>
+    </div>
+    <button class="clear-btn" onclick="clearChat()">🗑 Clear Chat</button>
+  </header>
+
+  <!-- Messages -->
+  <div class="chat-messages" id="chatMessages">
+    <div class="message bot-message">
+      <div class="bot-avatar small">🤖</div>
+      <div class="message-content">
+        <p>👋 Hello! I'm your FAQ Assistant.</p>
+        <p>Ask me anything about our product — pricing, features, support, and more. You can also click any question in the sidebar to get instant answers!</p>
+        <div class="quick-chips">
+          <button class="chip" onclick="sendQuick('How do I create an account?')">Create account</button>
+          <button class="chip" onclick="sendQuick('Is there a free trial?')">Free trial</button>
+          <button class="chip" onclick="sendQuick('How much does it cost?')">Pricing</button>
+          <button class="chip" onclick="sendQuick('How do I contact support?')">Support</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="chat-input-area">
+    <div class="input-wrapper">
+      <input
+        type="text"
+        id="userInput"
+        class="chat-input"
+        placeholder="Type your question here…"
+        autocomplete="off"
+        onkeypress="handleKey(event)"
+      />
+      <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+        <span>Send</span> ➤
+      </button>
+    </div>
+    <p class="input-hint">Press <kbd>Enter</kbd> to send · NLP-powered matching</p>
+  </div>
+</main>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is this product?",
+    "answer": "Our product is an AI-powered smart assistant designed to help you automate daily tasks, answer questions, and boost your productivity."
+  },
+  {
+    "id": 2,
+    "question": "How do I create an account?",
+    "answer": "To create an account, click the 'Sign Up' button on our homepage, enter your email address and a strong password, then verify your email. Your account will be ready in minutes!"
+  },
+  {
+    "id": 3,
+    "question": "Is there a free trial available?",
+    "answer": "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start your trial."
+  },
+  {
+    "id": 4,
+    "question": "How much does the product cost?",
+    "answer": "We offer three pricing plans: Basic ($9/month), Pro ($29/month), and Enterprise (custom pricing). All plans include our core features with different usage limits."
+  },
+  {
+    "id": 5,
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, UPI, and bank transfers for Enterprise plans."
+  },
+  {
+    "id": 6,
+    "question": "How do I reset my password?",
+    "answer": "Click 'Forgot Password' on the login page, enter your registered email address, and we'll send you a password reset link within 2 minutes. Check your spam folder if you don't see it."
+  },
+  {
+    "id": 7,
+    "question": "Can I cancel my subscription anytime?",
+    "answer": "Absolutely! You can cancel your subscription at any time from your account settings. You'll continue to have access until the end of your current billing period."
+  },
+  {
+    "id": 8,
+    "question": "Is my data secure?",
+    "answer": "Yes, we take security very seriously. All data is encrypted using AES-256 encryption, stored on ISO 27001 certified servers, and we are fully GDPR compliant. We never sell your data to third parties."
+  },
+  {
+    "id": 9,
+    "question": "How do I contact customer support?",
+    "answer": "You can reach our support team via live chat (available 24/7), email at support@product.com, or call us at +1-800-123-4567 during business hours (9am–6pm IST)."
+  },
+  {
+    "id": 10,
+    "question": "Does the product work on mobile?",
+    "answer": "Yes! Our product is fully responsive and works on all devices. We also have dedicated iOS and Android apps available on the App Store and Google Play."
+  },
+  {
+    "id": 11,
+    "question": "What programming languages are supported?",
+    "answer": "Our API supports Python, JavaScript, Java, Ruby, PHP, Go, and C#. We provide SDKs and detailed documentation for each language."
+  },
+  {
+    "id": 12,
+    "question": "How do I integrate the API?",
+    "answer": "After creating an account, go to the Developer section, generate your API key, and follow our quickstart guide. Full API documentation is available at docs.product.com."
+  },
+  {
+    "id": 13,
+    "question": "What is the uptime guarantee?",
+    "answer": "We guarantee 99.9% uptime backed by our SLA. Our infrastructure runs on redundant cloud servers across multiple regions to ensure maximum availability."
+  },
+  {
+    "id": 14,
+    "question": "Can I export my data?",
+    "answer": "Yes, you can export all your data at any time in CSV, JSON, or PDF format from your account settings under 'Data & Privacy'."
+  },
+  {
+    "id": 15,
+    "question": "Do you offer refunds?",
+    "answer": "We offer a 30-day money-back guarantee. If you're not satisfied within 30 days of purchase, contact our support team for a full refund, no questions asked."
+  },
+  {
+    "id": 16,
+    "question": "How many users can I add to my account?",
+    "answer": "The Basic plan supports 1 user, Pro supports up to 10 users, and Enterprise supports unlimited users with role-based access control."
+  },
+  {
+    "id": 17,
+    "question": "Is there a limit on API calls?",
+    "answer": "Basic plan: 1,000 API calls/month. Pro plan: 50,000 API calls/month. Enterprise plan: Unlimited API calls with priority rate limits."
+  },
+  {
+    "id": 18,
+    "question": "How do I upgrade my plan?",
+    "answer": "Log in to your account, go to Settings > Billing > Upgrade Plan. The upgrade is instant and you'll be charged the prorated difference for the current billing cycle."
+  },
+  {
+    "id": 19,
+    "question": "What browsers are supported?",
+    "answer": "We support all modern browsers including Chrome, Firefox, Safari, Edge, and Opera. We recommend keeping your browser updated to the latest version for the best experience."
+  },
+  {
+    "id": 20,
+    "question": "Is there an offline mode?",
+    "answer": "Our mobile apps support limited offline functionality. Core features like viewing saved content and drafts are available offline, while AI-powered features require an internet connection."
+  }
+]
